@@ -1,16 +1,135 @@
-# React + Vite
+# 🐾 PawRescue
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+PawRescue is a **web-based animal rescue reporting platform** that allows people to report injured or stray animals and connect with nearby volunteers for rescue operations.
 
-Currently, two official plugins are available:
+The platform uses **map-based reporting** to quickly locate animals and coordinate rescue efforts.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+---
 
-## React Compiler
+# 🚀 Features
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+* 📍 **Report Injured Animals**
 
-## Expanding the ESLint configuration
+  * Select location on map
+  * Add description of animal condition
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+* 🗺 **Interactive Map**
+
+  * Click on map to mark rescue location
+  * View reported animals
+
+* 🧑‍🤝‍🧑 **Volunteer Operations**
+
+  * Volunteers can view rescue requests
+  * Accept and manage rescue tasks
+
+* 📊 **Status Tracking**
+
+  * Pending
+  * In Progress
+  * Rescued
+
+---
+
+# 🛠 Tech Stack
+
+Frontend
+
+* React.js
+* React Leaflet (Map integration)
+* CSS
+
+Backend
+
+* Node.js
+* Express.js
+
+Database
+
+* MongoDB
+
+---
+
+# 📂 Project Structure
+
+```
+PawRescue
+│
+├── frontend
+│   ├── components
+│   ├── pages
+│   ├── services
+│   └── App.js
+│
+├── backend
+│   ├── routes
+│   ├── controllers
+│   └── models
+│
+├── screenshots
+│
+└── README.md
+```
+
+---
+
+# 📸 Screenshots
+
+## Home Page
+
+![Home](screenshots/home.png)
+
+## Report Animal Page
+
+![Report](screenshots/report.png)
+
+## Map Location Picker
+
+![Map](screenshots/map.png)
+
+## Volunteer Dashboard
+
+![Dashboard](screenshots/dashboard.png)
+
+---
+
+# ⚙ Installation
+
+Clone the repository
+
+```
+git clone https://github.com/Overwatch2419/PawRescue-.git
+```
+
+Install frontend dependencies
+
+```
+cd frontend
+npm install
+npm start
+```
+
+Install backend dependencies
+
+```
+cd backend
+npm install
+node server.js
+```
+
+---
+
+# 🎯 Future Improvements
+
+* AI animal injury detection
+* NGO integration
+* Rescue notifications
+* Mobile app version
+* Photo upload for reports
+
+---
+
+# 👨‍💻 Author
+
+Dashrath SadarPuriya
+GitHub: https://github.com/Overwatch2419
